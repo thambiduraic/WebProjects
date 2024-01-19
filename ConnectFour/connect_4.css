@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(#ee7f7f, #9495eb);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+	color: #6c09f7;
+	font-size: 32px;
+    letter-spacing: 1px;
+	position: relative;
+	text-transform: uppercase;
+}
+
+#winner {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12vm;
+    background-color: #f7f7fe;
+    color: rgba(8, 223, 90, 0.89);
+    width: 40%;
+    align-content: center;
+    position: relative;
+    left: 30%;
+    border-radius: 10px;
+}
+
+#board {
+    border: 5px solid #f3f7f3;
+
+    height: 500px;
+    width: 525px;
+
+    background: transparent;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+}
+
+.tile {
+    background-color: #fff;
+    border-radius: 50%;
+
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+    border: 2px solid #080d0e;
+}
+
+.red-piece {
+    background-color: rgb(253, 12, 12);
+}
+
+.yellow-piece {
+    background-color: rgba(230, 233, 27, 0.952);
+}
